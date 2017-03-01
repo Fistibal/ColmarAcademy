@@ -1,0 +1,134 @@
+html {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
+
+.main-content {
+  position: relative;
+  top: 5.3125rem; /* To offset for fixed header. */
+}
+
+@media only screen and (max-width: 760px) {
+  .main-content {
+    top: 2.5625rem;
+  }
+}
+
+/* Header */
+
+header {
+  position:;
+  width: 100%;
+  background-color: white;
+  z-index: 100;
+  height: 64px;
+  font-weight: bold;
+  font-size: 2em;
+}
+
+header .content {
+  display: flex;
+  align-items: center;
+  padding: 1.5em;
+}
+
+.logo img {
+  fo
+}
+
+header .logo {
+  flex: 1;
+  padding-left: 24px;
+}
+
+.logo strong {
+  color: gray;
+}
+
+header span {
+  padding-left: 0;
+}
+
+header nav ul {
+  display: flex;
+}
+
+nav li {
+  padding-left: 16px;
+}
+
+header .mobile {
+  display: none;
+}
+
+@media screen only and (max-width: 760px) {
+  header .desktop {
+    display: none;
+  }
+
+  header .mobile {
+    display: block;
+    width: 100%;
+  }
+
+  header .content {
+    padding: .5rem 0;
+  }
+
+  header .mobile ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+  }
+
+  header .mobile li {
+    padding: 0;
+  }
+}
+
+/*start-here section*/
+
+#start-here {
+  display: flex;
+  background-color: #77DBD0;
+  text-align: left;;
+  align-items: center;
+}
+
+.feature {
+  padding: 32px 0 32px 24px;
+}
+
+#start-here .image-container {
+  width: 60%;
+}
+
+#start-here .content {
+  padding-left: 40px;
+  width: 70%;
+  color: #1B5E55;
+}
+
+.content h1 {
+  font-size: 4em;
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
+.content h3 {
+  font-size: 2.5em;
+  margin-bottom: 40px;
+}
+
+#start-here .button {
+  background-color: #1B5E55;
+  text-align: center;
+  width: 80%;
+  padding: 8px 0 8px 0;
+}
+
+.button a {
+  color: white;
+  font-size: 2em;
+}
