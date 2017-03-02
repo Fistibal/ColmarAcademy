@@ -3,9 +3,11 @@ html {
   font-size: 16px;
 }
 
+
 .main-content {
   position: relative;
-  top: 5.3125rem; /* To offset for fixed header. */
+  top: 5.3125rem;
+  line-height: 1.5;
 }
 
 @media only screen and (max-width: 760px) {
@@ -110,13 +112,13 @@ header .mobile {
   color: #1B5E55;
 }
 
-.content h1 {
+#start-here .content h1 {
   font-size: 4em;
   padding-top: 60px;
   padding-bottom: 40px;
 }
 
-.content h3 {
+#start-here .content h3 {
   font-size: 2.5em;
   margin-bottom: 40px;
 }
@@ -131,4 +133,61 @@ header .mobile {
 .button a {
   color: white;
   font-size: 2em;
+}
+
+/*Keep Practicing Section*/
+
+#keep-practicing {
+  display: flex;
+  text-align: left;
+  color: #1B5E55;
+}
+
+.feature2 {
+  padding: 32px 24px;
+  width: 60%;
+}
+
+.feature2 .content h2 {
+  font-size: 4em;
+  padding-top: 32px;
+  padding-bottom: 24px;
+  }
+
+  .feature2 .content h4 {
+    padding-top: 40px;
+  }
+
+  .feature-col {
+    width: 423px;
+    padding-top: 32px;
+  }
+
+  .feature-col .image-container {
+    width: 35%;
+  }
+
+  .feature-col .content h3 {
+    font-size: 3em;
+  }
+
+  #keep-practicing .content h3 {
+    font-size: 1.75em;
+  }
+
+  /*.feature-col .content {
+    width: 100%;*/
+  }
+
+.orientation {
+  display: flex;
+  width: 100%;
+}
+
+.campus {
+  display: flex;
+}
+
+.guest {
+  display: flex;
 }
